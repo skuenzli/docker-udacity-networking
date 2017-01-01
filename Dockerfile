@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ENV PACKAGES='netcat-openbsd tcpdump traceroute mtr net-tools iproute2 iputils-ping dnsutils man'
+ENV PACKAGES='netcat-openbsd tcpdump traceroute mtr net-tools iproute2 iputils-ping dnsutils man lsof'
 
 RUN apt-get update \
   && apt-get upgrade -y \
